@@ -171,40 +171,52 @@ img {
 }
 
 .header {
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	z-index: var(--z-fixed);
-	background-color: var(--body-color);
+  width: 100%;
+  position: fixed;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--body-color);
+}
+
+/* ============== NAV ============== */
+.nav {
+  max-width: 968px;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 ```
-### Responsive
-#### :computer: Large
+### :computer: Responsive
 ```css
 /* For Large devices */
 @media screen and (min-width:1024px) {
   #code
 }
-```
-#### :computer: Large
-```css
   /* For Large devices */
 @media screen and (min-width: 768px) {
+	.container{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	body{
+		margin: 0;
+	}
+	.section{
+		padding: 6rem 0 2rem;
+	}
   #code
 }
-```
-#### :computer: Medium
-```css
   /* For Medium devices */
 @media screen and (min-width: 568px) {
   #code
 }
-```
-#### :iphone: Small
-```css
 /* For small devices */
 @media screen and (max-width: 350px) {
-  #code
+  .container{
+		margin-left: var(--mb-1);
+		margin-right: var(--mb-1);
+	}
+	#code
 }
 ```
