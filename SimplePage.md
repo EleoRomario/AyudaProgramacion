@@ -41,8 +41,10 @@ Tutorial para el desarrollo de una pagina web simple, desde la estructura de las
 ## :zap: Estructura CSS
 #### Variables globales
 ```css
-/* VARIABLES CSS  */
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+/* VARIABLES CSS  */
 :root {
 	--header-height: 3rem;
 
