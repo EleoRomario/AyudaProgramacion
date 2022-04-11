@@ -191,8 +191,9 @@ img {
 ```css
 /* For Large devices */
 @media screen and (min-width:1024px) {
-  #code
+  
 }
+@m
   /* For Large devices */
 @media screen and (min-width: 768px) {
 	.container{
@@ -205,11 +206,11 @@ img {
 	.section{
 		padding: 6rem 0 2rem;
 	}
-  #code
+  
 }
   /* For Medium devices */
 @media screen and (min-width: 568px) {
-  #code
+  
 }
 /* For small devices */
 @media screen and (max-width: 350px) {
@@ -217,6 +218,6 @@ img {
 		margin-left: var(--mb-1);
 		margin-right: var(--mb-1);
 	}
-	#code
+	
 }
 ```
