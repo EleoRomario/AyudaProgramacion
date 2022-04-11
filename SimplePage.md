@@ -1,11 +1,6 @@
-#Estructura de una pagina simple
+# Estructura de una pagina simple
 Tutorial para el desarrollo de una pagina web simple, desde la estructura de las carpetas asi como guias de codificación.
-
-**Table of Contents**
-[TOC]
-
 ## :file_folder: Estructura de directorio
----------------			
 * :open_file_folder: App
   * :open_file_folder: assets
     * :open_file_folder: css
