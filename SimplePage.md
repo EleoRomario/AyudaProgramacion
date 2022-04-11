@@ -193,8 +193,8 @@ img {
 @media screen and (min-width:1024px) {
   
 }
-@m
-  /* For Large devices */
+
+/* For Large devices */
 @media screen and (min-width: 768px) {
 	.container{
 		margin-left: auto;
@@ -208,10 +208,12 @@ img {
 	}
   
 }
-  /* For Medium devices */
+
+/* For Medium devices */
 @media screen and (min-width: 568px) {
   
 }
+
 /* For small devices */
 @media screen and (max-width: 350px) {
   .container{
